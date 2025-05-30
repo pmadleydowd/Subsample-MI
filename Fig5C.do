@@ -2,7 +2,7 @@ clear
 capture log close
 cd "YOUR_PATH_HERE"
 
-log using "Fig4C.log", replace
+log using "Fig5C.log", replace
 
 * X and Y missing dependent on C, C missing dependent on Y
 

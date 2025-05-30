@@ -2,7 +2,7 @@ clear
 capture log close
 cd "YOUR_PATH_HERE"
 
-log using "Fig3A.log", replace
+log using "Fig4ABC.log", replace
 
 * X missing dependent on C, C missing dependent on X, Y MCAR
 

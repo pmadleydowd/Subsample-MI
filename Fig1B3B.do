@@ -2,7 +2,7 @@ clear
 capture log close
 cd "YOUR_PATH_HERE"
 
-log using "Fig1B2B.log", replace
+log using "Fig1B3B.log", replace
 
 /* X missing dependent on Y, Y MCAR */
 local sampsize = 1000
@@ -54,7 +54,7 @@ gen y=x*`xcoef'+invnorm(uniform())*`b'+0.85
 
 
 
-/* Scenario 1B, 2B*/
+/* Scenario 1B, 3B*/
 centile y, centile(50)
 gen try1=r(c_1)
 
